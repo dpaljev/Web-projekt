@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>RSZ - Kontakt</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Kontaktne informacije">
+		<meta name="keywords" content="">
+		<meta name="author" content="David Ivan Paljević">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+	<header>
+		<div class="hero-image" style="height: 200px;"></div>
+		<nav>
+			<ul>
+                <li><a href="index.html">Početna</a></li>
+				<li><a href="news.html">Vijesti</a></li>
+				<li><a href="contact.html">Kontakt</a></li>
+				<li><a href="#">O nama</a></li>
+				<li><a href="gallery.html">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Contact Form</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173.8756794332835!2d15.938739342489157!3d45.79100993818447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1c2d95ed76d83c9!2zNDXCsDQ3JzI3LjgiTiAxNcKwNTYnMTkuMyJF!5e0!3m2!1sen!2shr!4v1641224933810!5m2!1sen!2shr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<p>Imate li pitanja? Ispunite obrazac dolje:</p>
+                <label for="fname">Ime *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Vaše ime..." required>
+
+				<label for="lname">Prezime *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Vaše prezime..." required>
+				
+				<label for="lname">Vaš E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Vaš e-mail..." required>
+
+				<label for="country">Država</label>
+				<select id="country" name="country">
+					<option value=""selected>Molimo odaberite</option>
+					<option value="AL">Albanija</option>
+					<option value="AD">Andora</option>
+					<option value="AT">Austrija</option>
+					<option value="BY">Bjelorusija</option>
+					<option value="BE">Belgija</option>
+					<option value="BA">Bosna i Hercegovina</option>
+					<option value="BG">Bugarska</option>
+					<option value="HR">Hrvatska</option>
+					<option value="CZ">Češka Republika</option>
+					<option value="DK">Danska</option>
+					<option value="EE">Estonija</option>
+					<option value="FI">Finska</option>
+					<option value="FR">Francuska</option>
+					<option value="DE">Njemačka</option>
+					<option value="GR">Grčka</option>
+					<option value="HU">Mađarska</option>
+					<option value="IS">Island</option>
+					<option value="IE">Irska</option>
+					<option value="IT">Italija</option>
+					<option value="XK">Kosovo</option>
+					<option value="LV">Latvija</option>
+					<option value="LT">Litva</option>
+					<option value="LU">Luksemburg</option>
+					<option value="MK">Makedonija</option>
+					<option value="MT">Malta</option>
+					<option value="MD">Moldavija</option>
+					<option value="MC">Monako</option>
+					<option value="ME">Crna Gora</option>
+					<option value="NL">Nizozemska</option>
+					<option value="NO">Norveška</option>
+					<option value="PL">Poljska</option>
+					<option value="PT">Portugal</option>
+					<option value="RO">Rumunjska</option>
+					<option value="RS">Srbija</option>
+					<option value="SK">Slovačka</option>
+					<option value="SI">Slovenija</option>
+					<option value="ES">Španjolska</option>
+					<option value="SE">Švedska</option>
+					<option value="CH">Švicarska</option>
+					<option value="UA">Ukrajina</option>
+					<option value="GB">Ujedinjeno Kraljevstvo</option>
+				</select>
+
+				<label for="subject">Poruka</label>
+				<textarea id="subject" name="subject" placeholder="Napišite nešto..." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2022 David Ivan Paljević. <a href="https://github.com/dpaljev?tab=repositories"><img src="images/GitHub.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
